@@ -1,0 +1,30 @@
+{
+  "name": "relay",
+  "version": "0.8.0",
+  "description": "relay offers three higher order functions to control flow of “node.js-style” functions – chain, combine and parallel.",
+  "main": "relay.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "buster": "~0.6.12"
+  },
+  "scripts": {
+    "test": "buster test -g node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidaurelio/relay.git"
+  },
+  "keywords": [
+    "control",
+    "flow",
+    "asynchronous",
+    "join",
+    "parallel",
+    "chain"
+  ],
+  "author": "David Aurelio <dev@david-aurelio.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
