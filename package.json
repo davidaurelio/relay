@@ -1,6 +1,6 @@
 {
   "name": "relay",
-  "version": "0.8.0",
+  "version": "0.8.0-1",
   "description": "relay offers three higher order functions to control flow of “node.js-style” functions – chain, combine and parallel.",
   "main": "relay.js",
   "directories": {
