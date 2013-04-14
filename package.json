@@ -26,5 +26,7 @@
   ],
   "author": "David Aurelio <dev@david-aurelio.com>",
   "license": "MIT",
+  "homepage": "https://github.com/davidaurelio/relay",
+  "bugs": "https://github.com/davidaurelio/relay/issues",
   "readmeFilename": "README.md"
 }
