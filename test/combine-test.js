@@ -1,8 +1,5 @@
-(function(require) {
-  var relay = require('../relay');
-  var sinon = require('sinon');
-  var referee = require('referee');
-  var assert = referee.assert, refute = referee.refute;
+define(['assert', 'refute', 'sinon', 'relay'], function(assert, refute, sinon, relay) {
+  'use strict';
 
   var combine = relay.combine;
   function arbitraryCallback(error, value) {}
@@ -125,5 +122,4 @@
       });
     });
   });
-})(typeof require === 'function' ? require :
-    function(n) { return window[n.split('/').pop()]; });
+});

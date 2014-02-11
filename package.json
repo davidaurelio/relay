@@ -7,14 +7,11 @@
     "test": "test"
   },
   "devDependencies": {
-    "buster": "~0.6.12",
-    "referee": "~1.0.2",
     "mocha": "~1.17.1",
-    "formatio": "~1.0.2",
-    "referee-sinon": "~1.0.1"
+    "setup-referee-sinon": "~0.1.2"
   },
   "scripts": {
-    "test": "buster-test -g node"
+    "test": "mocha -r setup-referee-sinon/amd"
   },
   "repository": {
     "type": "git",
