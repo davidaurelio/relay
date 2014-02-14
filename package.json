@@ -11,7 +11,7 @@
     "setup-referee-sinon": "~0.1.2",
     "karma": "~0.10.9",
     "karma-mocha": "~0.1.1",
-    "karma-referee": "git://github.com/davidaurelio/karma-referee"
+    "karma-referee": "~0.3.0"
   },
   "scripts": {
     "test": "mocha -r setup-referee-sinon/amd",
